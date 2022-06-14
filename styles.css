@@ -153,4 +153,49 @@ a:hover{
 
 .cta{
     display: flex;
+    margin: 72px 230px;
+    padding: 36px 48px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-sub{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cta-button{
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 12px 24px;
+    border: 2px solid #f9faf8;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover{
+    background-color: #2454a3;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f9faf8;
+    background-color: #1F2937;
 }
